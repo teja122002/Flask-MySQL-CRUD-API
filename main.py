@@ -1,11 +1,12 @@
 from flask import Flask,request,jsonify
 import mysql.connector
+import os
 app=Flask(__name__)
 def get_db():
     conn=mysql.connector.connect(
         host="localhost",
         user='root',
-        password='root123',
+        password= os.getenv("DB_PASSWORD"),
         database="testdb"
     )
     return conn
