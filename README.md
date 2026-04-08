@@ -1,4 +1,5 @@
-# Flask-MySQL-CRUD-API
+# Flask MySQL CRUD API
+
 A RESTful API built with Flask and MySQL that performs 
 full CRUD operations on a Users resource. 
 Tested with Postman.
@@ -28,3 +29,6 @@ Tested with Postman.
 4. Run the app
    python main.py
 5. Test in Postman → http://127.0.0.1:5000
+
+
+Flask-MySQL-CRUD-API
